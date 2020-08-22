@@ -22,7 +22,7 @@ var formatResponse = function(body){
       "Content-Type": "application/json"
     },
     "isBase64Encoded": false,
-    "multiValueHeaders": { 
+    "multiValueHeaders": {
       "X-Custom-Header": ["My value", "My other value"],
     },
     "body": body
