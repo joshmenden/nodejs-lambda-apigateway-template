@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-apig",
+  "name": "nodejs-lambda-apig-template",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
