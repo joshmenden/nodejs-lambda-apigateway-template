@@ -4,5 +4,8 @@
   "private": true,
   "devDependencies": {
     "aws-sdk": "2.631.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }

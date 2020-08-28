@@ -11,9 +11,9 @@ Resources:
   function:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
+      Handler: app/index.handler
       Runtime: nodejs12.x
-      CodeUri: function/.
+      CodeUri: dist/.
       Description: Call the AWS Lambda API
       Timeout: 10
       # Function's execution role
